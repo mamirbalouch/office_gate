@@ -10,7 +10,9 @@ fixtures = [
     {
         "doctype": "Custom Field",
         "filters": [
-            "module", "=", "Leaf Procurement"
+            [
+            "module", "=", "Office Gate"
+            ]
         ]
     }
 ]
