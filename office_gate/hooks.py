@@ -5,8 +5,18 @@ app_description = "Office Request Management App"
 app_email = "mamirbalouch@gmail.com"
 app_license = "mit"
 
+
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [
+            "module", "=", "Leaf Procurement"
+        ]
+    }
+]
 # Apps
 # ------------------
+
 
 # required_apps = []
 

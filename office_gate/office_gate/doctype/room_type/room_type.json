@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:room_type",
+ "creation": "2025-11-06 22:54:08.794384",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "room_type",
+  "persons_allowed"
+ ],
+ "fields": [
+  {
+   "fieldname": "room_type",
+   "fieldtype": "Data",
+   "label": "Room Type",
+   "unique": 1
+  },
+  {
+   "fieldname": "persons_allowed",
+   "fieldtype": "Int",
+   "label": "Persons Allowed"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-06 22:55:15.111133",
+ "modified_by": "Administrator",
+ "module": "Office Gate",
+ "name": "Room Type",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
