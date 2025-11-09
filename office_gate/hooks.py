@@ -7,6 +7,7 @@ app_license = "mit"
 
 
 fixtures = [
+    "Property Setter",
     {
         "doctype": "Custom Field",
         "filters": [
